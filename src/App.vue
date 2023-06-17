@@ -1,11 +1,9 @@
-<script setup>
-</script>
-
 <template>
-  <div class="container mx-auto">
-    I am tailwind 
+  <div>
+    <Home class="animate__animated animate__fadeIn" />
   </div>
 </template>
 
-<style scoped>
-</style>
+<script setup>
+import Home from './views/Home.vue'
+</script>
